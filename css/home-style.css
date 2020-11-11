@@ -1,0 +1,221 @@
+/**BASE STYLES**/
+body{
+    font-family: 'Righteous', cursive;
+    color:#0c224a;
+    font-size: 16px;
+    width: 1400px;
+    margin: auto;
+}
+
+ 
+/**  GRID SETUP **/
+.full-width{
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    overflow: auto;
+    clear: both;
+    box-sizing: border-box;
+    margin: 0 98px;
+}
+.half-width{
+    width: 48%;
+    max-width: 588px;
+    
+    overflow: auto;
+    float: left;
+    box-sizing: border-box;
+}
+
+.third-width{
+    width: 33.3%;
+    max-width: 398px;
+    text-align: center;
+    margin: auto;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+/**header**/
+header{
+    height: 425px;
+    background: url('../img/key-banner.png');
+    background-position: center;
+    background-size: cover;
+}
+#signature{
+    font-family: 'Righteous', cursive;
+    font-size: 32px;
+    color:  #13579b;
+    font-weight: lighter; 
+    padding-top: 70px;
+    margin: 0;
+}
+#intro h1{
+    font-family: 'Righteous', cursive;
+    font-size: 62px;
+    color:  #13579b;
+    padding-top: 15px;
+    float: left;
+    clear: both;
+    padding-right: 25px;
+}
+#intro span{
+    font-style: italic;
+}
+nav{  
+    padding: 70px 0 0 10px;
+    float: right;
+    
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #0c224a;
+    padding-left: 35px;
+    text-decoration: none;
+}
+
+
+
+/*** Layout for Portfolio section ***/
+#portfolio img{
+    border: white solid 4px;
+}
+.row-layout{
+    overflow: auto;
+    clear: both;
+    width: 100%;
+    max-width: 1400px;
+    padding: 25px 120px; 
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #e6eaf0;
+}
+.row-layout .thumbnail{
+    width: 38%;
+    max-width:370px;
+    margin: 20px 0;
+    float: left;
+}
+ 
+.row-layout .description{
+    width: 65%;
+    max-width: 896px;
+    height: 170px;
+    float: left;
+    padding: 10px 25px 25px 25px;
+    margin: 50px 0 0 25px;
+    box-sizing: border-box;
+}
+
+/*** CSS for Portfolio section design ***/
+#portfolio{
+    background-color: #e6eaf0;
+    padding-top:12px;
+    padding-bottom: 50px;
+}
+#top-project{
+    padding-top: 80px;
+}
+#portfolio img{
+    width: 100%;
+    max-width: 370px;
+}
+.colorblock{
+    height: 5px;
+    background-color: white;
+    clear: both;
+    margin: 0;
+}
+#portfolio h2{
+    color: #0c224a;
+}
+h2{
+    font-weight: 900;
+    font-size: 32px;
+    color: #13579b;
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    margin: 0 100px 0 30px;
+    color: #13579b;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+.description h4{
+    margin: 0 0 18px 70px;
+    color:#0c224a;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 100px 0 120px;
+    color:#0c224a;
+}
+/*** About Section Styling ***/
+#background{
+    background-color: #e6eaf0;
+    padding: 40px 0;
+}
+#background h3{
+    margin: 30px 0;
+}
+#background h2 span{
+    color: #2c88e4;
+}
+#background h5{
+    color: #2c88e4;
+    font-size: 22px;
+    padding-left: 60%;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+#background h5 span{
+    color: #13579b;
+    font-weight: 700;
+}
+/***   CONTACT styling   ***/
+#contact{
+    height: 282px;
+    background: url('../img/key-banner.png');
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+#contact ul{
+    padding: 0;
+}
+#contact ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+}
+#contact a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: #13579b;
+    
+}
+#contact h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color:#0c224a;
+}
+#contact i{
+    color: #0c224a;
+}
+
+#validation{
+float: right;
+margin-right: 120px;
+}
