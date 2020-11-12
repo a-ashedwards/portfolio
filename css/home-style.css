@@ -134,6 +134,9 @@ nav ul li a{
 #portfolio h2{
     color: #0c224a;
 }
+#portfolio h2 span{
+    font-size: 22px;
+}
 h2{
     font-weight: 900;
     font-size: 32px;
